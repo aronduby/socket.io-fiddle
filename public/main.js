@@ -2,7 +2,7 @@
 
 (function() {
 
-  var socket = io();
+  var socket = io('/main');
 
   socket.on('connect', onConnect);
 
